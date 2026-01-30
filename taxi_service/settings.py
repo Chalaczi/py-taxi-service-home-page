@@ -123,8 +123,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = "static/"
-
-# ZMIANA: Dodajemy informację, gdzie fizycznie znajdują się pliki statyczne
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
